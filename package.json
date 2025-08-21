@@ -1,11 +1,11 @@
 {
-  "name": "vanilla-app-template",
+  "name": "STP-10195",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/VAT-template-rep/",
+    "build": "vite build --base=/STP-10195/",
     "preview": "vite preview"
   },
   "devDependencies": {
