@@ -5,6 +5,7 @@
   |============================
 */
 /* Common styles */
+@import url('./animations.css');
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./container.css');
@@ -12,5 +13,6 @@
 /* Sections style */
 @import url('./header.css');
 @import url('./hero.css');
+@import url('./description.css');
 @import url('./footer.css');
 @import url('./modal menu.css');

@@ -28,6 +28,13 @@
   -webkit-text-size-adjust: 100%;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -36,6 +43,11 @@ body {
   margin: 0 auto;
   background-image: url("../img/bg-image.jpg");
   background-position: center;
+}
+
+body.locked,
+.header {
+  overflow: hidden;
 }
 
 main {
