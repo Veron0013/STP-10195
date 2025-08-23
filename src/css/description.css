@@ -29,7 +29,8 @@
 
 @media only screen and (min-width: 1200px) {
 	.description .container {
-		max-width: 700px;
+		width: 764px;
+		padding: 0;
 	}
 
 	.description-title {

@@ -16,6 +16,8 @@
   --main-peach: #FFDBC9;
   --main-blue: #ACEAF7;
   --main-grey: #515151;
+  --main-grey-hover: #666;
+  --main-grey-active: #434343;
 
   color: var(--main-color);
 
@@ -48,6 +50,29 @@ body {
 body.locked,
 .header {
   overflow: hidden;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.d-none {
+  display: none !important;
 }
 
 main {

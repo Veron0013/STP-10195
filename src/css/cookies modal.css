@@ -1,0 +1,117 @@
+.cookies {
+	position: fixed;
+	bottom: 0;
+	background-color: var(--main-blue);
+	width: 100%;
+	z-index: 80;
+	color: inherit;
+	padding: 32px 0;
+}
+
+.cookies .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cookie-title {
+	font-family: "Coiny", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+}
+
+.cookie-text {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 150%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.cookie-button-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	gap: 16px;
+}
+
+.cookie-button {
+	font-family: "Coiny", sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	text-align: center;
+	width: 100%;
+	border: 0;
+	border-radius: 12px;
+}
+
+.primary-button {
+	padding: 10px 50px;
+	box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.25);
+	background: var(--main-green);
+}
+
+.primary-button:hover,
+.primary-button:focus {
+	background-color: var(--main-green-hover);
+}
+
+.primary-button:active {
+	background-color: var(--main-green-active);
+}
+
+.secondary-button {
+	border: 1.60px solid var(--main-grey);
+	color: var(--main-grey);
+
+	padding: 10px 50px;
+	box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.secondary-button:hover,
+.secondary-button:focus {
+	border: 1.60px solid var(--main-grey-hover);
+	color: var(--main-grey-hover);
+}
+
+.secondary-button:active {
+	border: 1.60px solid var(--main-grey-active);
+	color: var(---main-grey-active);
+}
+
+@media only screen and (min-width: 1200px) {
+	.cookie-title {
+		font-size: 36px;
+		padding-bottom: 8px;
+	}
+
+	.cookie-text {
+		font-size: 24px;
+		line-height: 125%;
+
+	}
+
+	.cookie-button-wrapper {
+		flex-direction: row;
+		gap: 24px;
+	}
+
+	.cookie-button {
+		width: 300px;
+		height: 60px;
+		font-size: 20px;
+		border-radius: 20px;
+	}
+
+	.secondary-button,
+	.secondary-button:hover,
+	.secondary-button:focus,
+	.secondary-button:active {
+		border: 2px
+	}
+}
