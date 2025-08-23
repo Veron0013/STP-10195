@@ -18,6 +18,12 @@ ul {
   list-style: none;
 }
 
+ol {
+  padding: 0;
+  margin: 0;
+  list-style-position: inside;
+}
+
 a {
   color: currentColor;
   text-decoration: none;

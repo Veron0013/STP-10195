@@ -1,0 +1,107 @@
+.policy {
+	padding: 12px 0 28px 0;
+}
+
+.policy-container {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.policy-btn {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 129%;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	height: 40px;
+}
+
+.policy-title {
+	font-family: "Coiny", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 4px;
+}
+
+.policy-date {
+	padding-bottom: 14px;
+}
+
+.policy-text {
+	font-weight: 400;
+	text-indent: 6px;
+	line-height: 130%;
+}
+
+.policy ol {
+	padding-top: 20px;
+}
+
+
+.policy-item {
+	font-weight: 600;
+}
+
+.policy-item:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.policy-item .policy-text {
+	padding-top: 4px;
+}
+
+.policy-list {
+	list-style: disc;
+	list-style-position: outside;
+	padding-left: 1.3rem;
+	font-weight: 400;
+	line-height: 130%;
+}
+
+@media (min-width: 1200px) {
+	.policy {
+		padding: 32px 0 48px 0;
+	}
+
+	.policy-container {
+		font-size: 18px;
+	}
+
+	.policy-btn {
+		font-size: 24px;
+		margin-bottom: 16px;
+	}
+
+
+	.policy-title {
+		font-size: 36px;
+		margin-bottom: 22px;
+	}
+
+	.policy-date {
+		margin-bottom: 27px;
+	}
+
+	.policy ol {
+		padding-top: 32px;
+	}
+
+	.policy-item:not(:last-child) {
+		margin-bottom: 32px;
+	}
+
+	.policy-item .policy-text {
+		padding-top: 8px;
+	}
+
+	.policy-list {
+
+		padding-left: 1.6rem;
+
+	}
+
+}
