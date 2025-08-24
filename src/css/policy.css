@@ -37,7 +37,7 @@
 	line-height: 130%;
 }
 
-.policy ol {
+.policy-list-wrapper {
 	padding-top: 20px;
 }
 
@@ -50,9 +50,9 @@
 	margin-bottom: 20px;
 }
 
-.policy-item .policy-text {
+/*.policy-item .policy-text {
 	padding-top: 4px;
-}
+}*/
 
 .policy-list {
 	list-style: disc;
@@ -86,7 +86,7 @@
 		margin-bottom: 27px;
 	}
 
-	.policy ol {
+	.policy-list-wrapper {
 		padding-top: 32px;
 	}
 
@@ -94,9 +94,9 @@
 		margin-bottom: 32px;
 	}
 
-	.policy-item .policy-text {
+	/*.policy-item .policy-text {
 		padding-top: 8px;
-	}
+	}*/
 
 	.policy-list {
 

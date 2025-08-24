@@ -4,35 +4,53 @@
       <div class="hero-title-wrapper">
         <h1 class="hero-title">Mary's Life: A Makeover Story</h1>
         <h2 class="hero-sub-title">Rebuild Dreams. Redesign Life!</h2>
-        <button class="hero-button">
-          <img
-            class="button-decoration-left"
-            src="./img/hero/button-left.png"
-            alt="features-decoration"
-            width="100px"
-          />
-          <img
-            class="button-decoration-right"
-            src="./img/hero/button-right.png"
-            alt="features-decoration"
-            width="80px"
-          />
+        <a
+          class="hero-button"
+          href="https://play.google.com/store/apps/details?id=world.playme.match3&hl=en&gl=us"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             class="hero-button-gplay"
             src="./img/logos_google-play-icon.png"
             alt="logo google"
             width="16"
           />Start Decorating With Mary!
-        </button>
+        </a>
       </div>
-      <div class="hero-main-image-wrapper">
-        <!--<img
-          class="button-decoration-bottom"
-          src="./img/hero/logo-bottom.png"
-          alt="features-decoration"
-          width="90px"
-        />-->
-      </div>
+      <!--<div class="hero-main-image-wrapper">-->
+      <picture>
+        <source
+          srcset="../img/hero/mary-pc.webp 1x, ../img/hero/mary-pc@2x.webp 2x"
+          media="(min-width: 1200px)"
+        />
+        <img
+          src="../img/hero/mary-mob.webp"
+          srcset="../img/hero/mary-mob.webp 1x, ../img/hero/mary-mob@2x.webp 2x"
+          alt="Mary is ready to work"
+          class="hero-main-image"
+        />
+      </picture>
+      <!--</div>-->
+
+      <img
+        class="hero-button-decoration-left"
+        src="./img/hero/button-left.png"
+        alt="features-decoration"
+        width="100px"
+      />
+      <img
+        class="hero-button-decoration-right"
+        src="./img/hero/button-right.png"
+        alt="features-decoration"
+        width="80px"
+      />
+      <img
+        class="hero-button-decoration-bottom"
+        src="./img/hero/logo-bottom.png"
+        alt="features-decoration"
+        width="90px"
+      />
       <div class="hero-cat-image-wrapper"></div>
     </div>
   </div>
